@@ -14,6 +14,7 @@
 		ACA3A2261E70903C00F035FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA3A2241E70903C00F035FB /* LaunchScreen.storyboard */; };
 		ACA3A2311E70903D00F035FB /* TipCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA3A2301E70903D00F035FB /* TipCalcTests.swift */; };
 		ACA3A23C1E70903D00F035FB /* TipCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA3A23B1E70903D00F035FB /* TipCalcUITests.swift */; };
+		ACA3A2501E7226A700F035FB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA3A24F1E7226A700F035FB /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		ACA3A2371E70903D00F035FB /* TipCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACA3A23B1E70903D00F035FB /* TipCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalcUITests.swift; sourceTree = "<group>"; };
 		ACA3A23D1E70903D00F035FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACA3A24F1E7226A700F035FB /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				ACA3A21B1E70903C00F035FB /* AppDelegate.swift */,
 				ACA3A21D1E70903C00F035FB /* ViewController.swift */,
 				ACA3A21F1E70903C00F035FB /* Main.storyboard */,
+				ACA3A24F1E7226A700F035FB /* SettingsViewController.swift */,
 				ACA3A2221E70903C00F035FB /* Assets.xcassets */,
 				ACA3A2241E70903C00F035FB /* LaunchScreen.storyboard */,
 				ACA3A2271E70903C00F035FB /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				ACA3A21E1E70903C00F035FB /* ViewController.swift in Sources */,
 				ACA3A21C1E70903C00F035FB /* AppDelegate.swift in Sources */,
+				ACA3A2501E7226A700F035FB /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
